@@ -49,11 +49,11 @@ uvicorn app.main:app --reload
 docker-compose up --build
 ```
 
-2. The API will be available at http://localhost:8000
+2. The API will be available at http://localhost:5432
 
 ## API Documentation
 
-Once the application is running, visit http://localhost:8000/docs for the Swagger documentation.
+Once the application is running, visit http://localhost:5432/docs for the Swagger documentation.
 
 ## Running Tests
 
